@@ -1,0 +1,74 @@
+[
+  {
+    "file": "00-config-security.js",
+    "lines": [
+      1,
+      219
+    ],
+    "description": "Core imports, configuration, console banner and account/key security.",
+    "sha256": "786647b4e50e85bcbe9a178e33f2cbd3d08ed9565e99f5fff046593497def39a"
+  },
+  {
+    "file": "01-proxy.js",
+    "lines": [
+      220,
+      373
+    ],
+    "description": "Proxy transport, proxy checks, license helpers and config persistence.",
+    "sha256": "08b9ec1eead8cb47f08bc3ef5472592423d916c9316f59d8811df7c38c51e1c3"
+  },
+  {
+    "file": "02-scheduler-autosell.js",
+    "lines": [
+      374,
+      574
+    ],
+    "description": "Scheduled bot downtime and auto-sell configuration/helpers.",
+    "sha256": "a75f9d5a8b802939956db4598dc0115669a4cb5cfc5d3a79cab1e86010b64294"
+  },
+  {
+    "file": "03-webhook-money.js",
+    "lines": [
+      575,
+      1028
+    ],
+    "description": "Discord webhook integration, bot events and money-history storage.",
+    "sha256": "bde3e833e5ccf839ea9a5851281a0bd03d07e443f8f4fc132882fc212e66ca4e"
+  },
+  {
+    "file": "04-reconnect-logs-chat.js",
+    "lines": [
+      1029,
+      1882
+    ],
+    "description": "Reconnect policy, log formatting, chat parsing, anti-fake-pay and TPA helpers.",
+    "sha256": "54a26e421452e6fd4d538a6ef45a6556463d744047a9c36cf84f1c990233b0f6"
+  },
+  {
+    "file": "05-minecraft-runtime.js",
+    "lines": [
+      1883,
+      2809
+    ],
+    "description": "Mineflayer bot creation, server login, stats checks, auto-sell loop and lifecycle.",
+    "sha256": "f580a2ce68a60315514748de23347b3d1ac818cc93fb7bafa34963dac863546b"
+  },
+  {
+    "file": "06-dashboard-api.js",
+    "lines": [
+      2810,
+      3929
+    ],
+    "description": "Express dashboard, REST APIs, WebSocket inventory and panel routes.",
+    "sha256": "41ef682c51760fe053c213e23d2c5a1d411f7681b0c1301c490b76ae14ccd2ad"
+  },
+  {
+    "file": "07-resource-pack.js",
+    "lines": [
+      3930,
+      3963
+    ],
+    "description": "Resource Pack ingest: scanner, audio purge, model/blockstate resolver, manifest/cache and /rp endpoints.",
+    "sha256": "45ab2ecd85887d78c3082aa6d42b22f5376e18719e0df705303c73c4f4686dac"
+  }
+]
